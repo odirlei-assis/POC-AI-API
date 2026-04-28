@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# Gerenciamento de Produtos - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é a aplicação frontend (Single Page Application) do sistema de Gerenciamento de Produtos, desenvolvida com React e TypeScript. A interface permite o cadastro, listagem, exclusão de produtos e alternância de temas (claro/escuro). Além disso, está integrada com a API do Google Gemini para validação de segurança de conteúdo das descrições dos produtos.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **[React 19](https://react.dev/)**: Biblioteca para criação de interfaces de usuário.
+- **[TypeScript](https://www.typescriptlang.org/)**: Tipagem estática para maior segurança no código.
+- **[Vite](https://vitejs.dev/)**: Ferramenta de build rápida e moderna.
+- **[Google Generative AI](https://ai.google.dev/)**: Integração com Gemini AI para análise de texto.
 
-## React Compiler
+## ⚙️ Pré-requisitos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para rodar este projeto localmente, você precisa ter instalado:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (versão 18 ou superior recomendada)
+- `npm` (gerenciador de pacotes do Node)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Como Executar
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clone as dependências do projeto:**
+   Na raiz deste diretório (onde está o `package.json`), abra o terminal e execute:
+   ```bash
+   npm install
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. **Configuração de Variáveis de Ambiente:**
+   Crie um arquivo `.env.local` na raiz do projeto (se houver variáveis necessárias, como a URL da API ou da chave do Gemini, insira-as aqui).
+   Exemplo:
+   ```env
+   VITE_API_URL=http://localhost:5000/api
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Iniciando o servidor de desenvolvimento:**
+   Execute o comando abaixo para iniciar o Vite:
+   ```bash
+   npm run dev
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+4. **Acessando a aplicação:**
+   A aplicação estará disponível no navegador, geralmente no endereço: `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Scripts Disponíveis
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Compila o projeto TypeScript e realiza o build de produção via Vite.
+- `npm run lint`: Executa a verificação de código usando ESLint.
+- `npm run preview`: Inicia um servidor local para visualizar as alterações de build antes de enviar para produção.
