@@ -25,10 +25,10 @@ Para rodar este projeto localmente, você precisa ter instalado:
    ```
 
 2. **Configuração de Variáveis de Ambiente:**
-   Crie um arquivo `.env.local` na raiz do projeto (se houver variáveis necessárias, como a URL da API ou da chave do Gemini, insira-as aqui).
+   Crie um arquivo `.env.local` na raiz do projeto para adicionar a KEY do Gemini.
    Exemplo:
    ```env
-   VITE_API_URL=http://localhost:5000/api
+   VITE_GEMINI_API_KEY=sua_chave_aqui
    ```
 
 3. **Iniciando o servidor de desenvolvimento:**
