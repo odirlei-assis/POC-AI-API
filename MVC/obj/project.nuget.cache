@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "UymgywiBkFg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\MVC\\ProductApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SN1067095\\.nuget\\packages\\google.apis\\1.69.0\\google.apis.1.69.0.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\google.apis.auth\\1.69.0\\google.apis.auth.1.69.0.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\google.apis.core\\1.69.0\\google.apis.core.1.69.0.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\google.genai\\1.6.1\\google.genai.1.6.1.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.4.0\\microsoft.extensions.ai.abstractions.10.4.0.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\mimetypes\\2.5.2\\mimetypes.2.5.2.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\SN1067095\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

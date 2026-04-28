@@ -1,0 +1,91 @@
+@model IEnumerable<ProductApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Gestão de Produtos";
+}
+
+<div class="dashboard-container">
+    <div class="alerts-container fade-in-up" style="grid-column: 1 / -1;">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger glass-panel-alert error-aura">
+                <strong>Atenção!</strong> @TempData["ErrorMessage"]
+            </div>
+        }
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success glass-panel-alert success-aura">
+                <strong>Sucesso!</strong> @TempData["SuccessMessage"]
+            </div>
+        }
+    </div>
+
+    <!-- Form Section -->
+    <section class="glass-panel form-section fade-in-up">
+        <div class="section-header">
+            <h2>Novo Produto</h2>
+            <p>Cadastre um novo item no catálogo</p>
+        </div>
+        <form asp-action="AddProduct" method="post" class="product-form">
+            <div class="form-group input-aura">
+                <label for="Nome">Nome do Produto</label>
+                <input type="text" id="Nome" name="Nome" required placeholder="Ex: Smartwatch Pro" class="form-control" />
+            </div>
+            
+            <div class="form-group input-aura">
+                <label for="Descricao">Descrição</label>
+                <textarea id="Descricao" name="Descricao" required placeholder="Detalhes completos..." class="form-control" rows="3"></textarea>
+            </div>
+            
+            <div class="form-group input-aura">
+                <label for="Valor">Valor (R$)</label>
+                <input type="number" step="0.01" id="Valor" name="Valor" required placeholder="0.00" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn-glow">
+                <span>Cadastrar Produto</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+        </form>
+    </section>
+
+    <!-- List Section -->
+    <section class="glass-panel list-section fade-in-up delay-1">
+        <div class="section-header">
+            <h2>Produtos Cadastrados</h2>
+            <p>Gerencie o seu inventário (@Model?.Count() produtos)</p>
+        </div>
+        
+        @if (Model != null && Model.Any())
+        {
+            <div class="product-grid">
+                @foreach (var item in Model)
+                {
+                    <div class="product-card slide-in">
+                        <div class="card-content">
+                            <h3>@item.Nome</h3>
+                            <p class="description">@item.Descricao</p>
+                            <span class="price-badge">R$ @item.Valor.ToString("N2")</span>
+                        </div>
+                        <div class="card-actions">
+                            <form asp-action="DeleteProduct" method="post" onsubmit="return confirm('Tem certeza que deseja excluir @item.Nome?');">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn-icon" title="Excluir">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6"/></svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="empty-state pulse">
+                <div class="empty-icon">✨</div>
+                <h3>Sem produtos ainda</h3>
+                <p>Adicione o primeiro produto utilizando o formulário.</p>
+            </div>
+        }
+    </section>
+</div>

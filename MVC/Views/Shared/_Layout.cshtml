@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Produtos</title>
+    <script type="importmap"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="dark-theme">
+    <!-- Efeitos de Background Dinâmico -->
+    <div class="ambient-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Navegação -->
+    <header class="glass-header">
+        <div class="header-content">
+            <a asp-action="Index" class="brand-logo">
+                <div class="logo-circle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <span>Prod<strong>utos</strong></span>
+            </a>
+            <div class="nav-links">
+                <span class="badge-status">Sistema Online</span>
+                <div class="user-avatar">
+                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix&backgroundColor=transparent" alt="User" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="app-main">
+        @RenderBody()
+    </main>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

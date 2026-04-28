@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\service\\contentsafetyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\service\\contentsafetyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\service\\comentarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\service\\comentarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\controllers\\comentariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\repositories\\comentariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\repositories\\comentariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\entities\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\entities\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|c:\\users\\sn1067095\\documents\\2026\\teste-ai\\teste ai api\\teste ai api\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FF458BE-1DA9-6406-5429-4E9086CE9C1D}|Teste AI API\\Teste AI API.csproj|solutionrelative:teste ai api\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContentSafetyService.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Service\\ContentSafetyService.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Service\\ContentSafetyService.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Service\\ContentSafetyService.cs",
+              "RelativeToolTip": "Teste AI API\\Service\\ContentSafetyService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T11:41:02.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComentarioController.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Controllers\\ComentarioController.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Controllers\\ComentarioController.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Controllers\\ComentarioController.cs",
+              "RelativeToolTip": "Teste AI API\\Controllers\\ComentarioController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:21:08.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Teste AI API\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:20:46.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComentarioService.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Service\\ComentarioService.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Service\\ComentarioService.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Service\\ComentarioService.cs",
+              "RelativeToolTip": "Teste AI API\\Service\\ComentarioService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:04:11.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComentarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Repositories\\ComentarioRepository.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Repositories\\ComentarioRepository.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Repositories\\ComentarioRepository.cs",
+              "RelativeToolTip": "Teste AI API\\Repositories\\ComentarioRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAApwCIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:27:18.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Entities\\Comentario.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Entities\\Comentario.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Entities\\Comentario.cs",
+              "RelativeToolTip": "Teste AI API\\Entities\\Comentario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T19:00:32.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Teste AI API\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:28:45.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Program.cs",
+              "RelativeDocumentMoniker": "Teste AI API\\Program.cs",
+              "ToolTip": "C:\\Users\\SN1067095\\Documents\\2026\\Teste-AI\\Teste AI API\\Teste AI API\\Program.cs",
+              "RelativeToolTip": "Teste AI API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T14:23:32.742Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
